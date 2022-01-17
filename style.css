@@ -310,21 +310,35 @@ body > aside {
 
 .more-content {
   max-width: 1100px;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 80px auto;
 }
 
 .more-content > h1{
-  text-align: center;
   font-size: 20px;
-  font-weight: 600;
 }
 
 .content-thumbnail {
-  width: 300px;
+  max-width: 260px;
+}
+
+.articles h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.articles a:hover {
+  color:rgb(0, 195, 255);
 }
 
 .articles {
   display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.articles a {
+  max-width: 260px;
 }
 
 /* Footer */
