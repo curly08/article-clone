@@ -118,8 +118,8 @@
           <p class="serif small-text"><em>Sign up to our free <a href="">Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</em></p>
           <p class="small-text">
             <strong>More on these topics:</strong>
-            <button><strong>PLANETS</strong></button>
-            <button><strong>MARS</strong></button>
+            <button class="btn dark-blue"><strong>PLANETS</strong></button>
+            <button class="btn dark-blue"><strong>MARS</strong></button>
           </p>
         </div>
         <div class="flex">
@@ -163,9 +163,9 @@
           <section class="mag">
             <a href=""><img src="img/cover.jpg" alt=""></a>
             <div>
-              <button class="light-blue"><strong>SUBSCRIBE</strong></button>
-              <button class="light-green"><strong>VIEW IN THE APP</strong></button>
-              <button class="red"><strong>BUY IN PRINT</strong></button>
+              <button class="btn light-blue"><strong>SUBSCRIBE</strong></button>
+              <button class="btn light-green"><strong>VIEW IN THE APP</strong></button>
+              <button class="btn red"><strong>BUY IN PRINT</strong></button>
             </div>
           </section>
         </div>
@@ -237,7 +237,7 @@
       <form action="">
         <label for="email">Enter your email address to get started</label>
         <input id="email" name="email" type="email" placeholder="Your Email">
-        <input type="submit" value="SIGN UP">
+        <input type="submit" value="SIGN UP" class="btn dark-blue">
       </form>
       <section class="footer-links">
         <div class="link-section">
@@ -257,26 +257,37 @@
           <a href="">Syndication</a><hr>
           <a href="">RSS feed</a>
         </div>
-        <br>
         <div class="link-section">
           <a href="">Gift subscriptions</a><hr>
           <a href="">Student subscriptions</a><hr>
           <a href="">Educational subscriptions</a><hr>
           <a href="">Corporate subscriptions</a>
         </div>
-        <button><strong>COOKIE SETTINGS</strong></button>
-        <p>GET THE APP</p>
-        <button>ios</button>
-        <button>google play</button>
-        <p>FOLLOW US</p>
-        <a href=""><img class="icon" src="img/fb.png" alt=""></a>
-        <a href=""><img class="icon" src="img/tw.png" alt=""></a>
-        <a href=""><img class="icon" src="img/li.png" alt=""></a>
-        <a href=""><img class="icon" src="img/pi.png" alt=""></a>
+        <button class="btn dark-blue"><strong>COOKIE SETTINGS</strong></button>
+        <div class="container">
+          <div>
+            <p>GET THE APP</p>
+            <div class="buttons">
+              <a href=""><img class="app-btn" src="img/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg" alt="Download on Apple Store button"></a>
+              <a href=""><img class="download-btn" src="img/google-play-badge.png" alt="Download on Google Play button"></a>
+            </div>
+          </div>
+          <div>
+            <p>FOLLOW US</p>
+            <div class="buttons">
+              <a href=""><img class="icon" src="img/fb.png" alt=""></a>
+              <a href=""><img class="icon" src="img/tw.png" alt=""></a>
+              <a href=""><img class="icon" src="img/li.png" alt=""></a>
+              <a href=""><img class="icon" src="img/pi.png" alt=""></a>
+            </div>
+          </div>
+        </div>
       </section>
-      <p>© Copyright New Scientist Ltd.</p>
-      <a href="#top"><strong>Back to top</strong></a>
-      <a href="#top"><img class="icon" src="img/up.png" alt=""></a>
+      <div class="copywright">
+        <p>© Copyright New Scientist Ltd.</p>
+        <a class="push-right" href="#top"><strong>Back to top</strong></a>
+        <a href="#top"><img class="icon" src="img/up.png" alt=""></a>
+      </div>
     </div>
   </footer>
 </body>
